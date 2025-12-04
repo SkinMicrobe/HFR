@@ -1,18 +1,25 @@
-# Code Utilities (Plain English)
+# Skin Microbiota Dysbiosis & Hair Follicle Regeneration ????
 
-- **tempdir_utils.R**: Forces Râ€™s temp directory to a fixed path for packages that need a stable temp location.
-- **seurat_utils.R**: Encapsulates the routine Seurat pipeline: create objects, QC, normalize, find variable genes, cluster, embed, and label cell types.
-- **cellchat_utils.R**: Runs the standard CellChat preprocessing to prepare communication networks from a Seurat object.
-- **cellchat_plot_utils.R**: Provides quick plotting for CellChat outputs: overviews, pathway aggregates, and bubble charts.
-- **limma_utils.R**: Runs limma differential testing (design + contrast) and returns tidy results.
-- **kegg_utils.R**: Performs human KEGG enrichment from gene symbols and produces a dot plot.
-- **enrichment_utils.R**: GSEA-style KEGG on ranked genes plus helpers to retrieve top pathways.
-- **microbiome_utils.R**: Core microbiome analyses: Adonis, distance-based MDS with ellipses, and composition boxplots.
-- **microbiome_prediction_utils.R**: Workflow pieces for microbiome prediction: Adonis with FDR, TableOne, stepwise logistic, and OR/CI data for forest-style plots.
-- **iobr_utils.R**: Thin wrappers around IOBR for signature scoring and count-to-TPM conversion.
-- **lefse_utils.R**: Wraps the microeco LEfSe workflow and its visualizations (bars, cladograms).
-- **metabolism_utils.R**: Cleans and clusters lipid/metabolite matrices, scales/clips for heatmaps, and plots correlations with marginals.
-- **multiomics_utils.R**: General multi-omics helpers for quantile binning, merging features with metadata, and subsetting by group.
-- **plot_utils.R**: A ready-made boxplot with significance labels for long-format data.
-- **heatmap_utils.R**: Scales/clips matrices and draws heatmaps with optional annotations.
-- **theme_utils.R**: A reusable ggplot theme tuned for long x-axis labels and a clean top legend.
+## ?? Abstract
+Across 1,073 participants in a 3-year, four-country study, scalp microbiome patterns track alopecia severity, progression, and treatment response. We built the Hair Microbiome Health Index (HMHI) to flag and predict disease course. A multi-omics Microbe¨CMetabolites¨CHost Crosstalk model shows Cutibacterium acnes converts tryptophan to indole, overactivating AHR in sebocytes, triggering CXCL12 release, recruiting CXCR4+ NKT cells, and stalling follicle growth. Targeting microbe¨Chost signaling offers a therapeutic path for hair loss.
+
+## ?? Graphical Abstract
+- figure/GA.png
+
+## ?? Code
+- `code/seurat_utils.R` + `code/cellchat_utils.R`: streamlined Seurat and CellChat workflows.
+- `code/microbiome_utils.R` + `code/microbiome_prediction_utils.R`: microbiome stats, ordination, and prediction helpers.
+- `code/enrichment_utils.R` + `code/kegg_utils.R` + `code/limma_utils.R`: differential testing and KEGG/GSEA enrichment.
+- `code/metabolism_utils.R` + `code/heatmap_utils.R` + `code/plot_utils.R` + `code/theme_utils.R`: metabolite cleanup plus ready-made plots, heatmaps, and themes.
+- `code/multiomics_utils.R` + `code/lefse_utils.R` + `code/iobr_utils.R` + `code/tempdir_utils.R`: multi-omics merging, LEfSe wrappers, signature scoring, and fixed temp directories.
+
+## ?? Data Availability
+- Single-cell RNA-seq and spatial transcriptomics: GSA-Human HRAXXXX (noncommercial academic use; MTA required).
+- Human metabolomics: EBI MetaboLights MTBLSXXXXX.
+- Metagenome and 16S rRNA gene sequences: ENA PRJEB103845.
+
+## ?? Citation
+Skin microbiota dysbiosis inhibit hair follicle regeneration through sebaceous gland signaling; Under Review, 2025
+
+## ?? Lead Contact
+Gaofeng Wang (gwang45@jhmi.edu)

@@ -1,0 +1,34 @@
+
+Title
+Skin microbiota dysbiosis inhibit hair follicle regeneration
+
+
+Abstract
+
+Throughout the course of human evolution, the gradual loss of body hair has been accompanied by corresponding changes in the skin microbiome. The pilosebaceous unit serves as a primary niche for the colonization of cutaneous microbiota, yet the relationship between hair coverage and shifts in the microbial ecosystem, and how the microbiome influences follicular health remains unclear. Through a 3-year multi-cohort study of 1,073 participants across four countries, we found that scalp microbiome composition correlates strongly with alopecia severity, progression, and treatment response. We developed the Hair Microbiome Health Index (HMHI) to effectively identify and predict the progression of alopecia. Using metagenomics and metabolite-transcriptome analysis, we developed a Microbe-Metabolites-Host Crosstalk model, revealing that Cutibacterium acnes metabolizes tryptophan into indole, overactivating AHR in sebaceous cells. This triggers CXCL12 release, recruiting CXCR4+ NKT cells and inhibiting hair follicle growth, leading to alopecia. These findings demonstrate that disruptions in the skin microbiome compromise the health of cutaneous appendages and provide a theoretical foundation for targeting microbe-host interactions as a potential therapeutic strategy for hair loss.
+
+Graphical Abastract
+./figure/GA.png
+
+
+Code
+
+介绍./code/*.R
+
+
+DATA AVAILABILITY
+
+The Single Cell RNA-seq and Spatial transcriptomics data have been deposited at GSA-Human (https://ngdc.cncb.ac.cn/gsa-human/, accession number: HRAXXXX). All data access requests will be reviewed. Data can be shared only for noncommercial academic purpose and will require a formal material transfer agreement. The formally signed data transfer agreement is required under the supervision of the corresponding laws and regulations.
+The raw human metabolomic data have been deposited in EBI MetaboLights under MetaboLights: MTBLSXXXXX. 
+The Metagenome and 16S rRNA gene sequences data were deposited with the European Nucleotide Archive (ENA) under accession number PRJEB103845.
+
+
+
+CITATION
+
+Skin microbiota dysbiosis inhibit hair follicle regeneration through sebaceous gland signaling; Under Review, 2025
+
+
+
+Lead contact
+Gaofeng Wang (gwang45@jhmi.edu)
