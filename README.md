@@ -1,7 +1,7 @@
 ﻿# Skin Microbiota Dysbiosis & Hair Follicle Regeneration
 
 ## 📝 Abstract
-Across 1,073 participants in a 3-year, four-country study, scalp microbiome patterns track alopecia severity, progression, and treatment response. We built the Hair Microbiome Health Index (HMHI) to flag and predict disease course. A multi-omics Microbe–Metabolites–Host Crosstalk model shows Cutibacterium acnes converts tryptophan to indole, overactivating AHR in sebocytes, triggering CXCL12 release, recruiting CXCR4+ NKT cells, and stalling follicle growth. Targeting microbe–host signaling offers a therapeutic path for hair loss.
+Across 1,068 participants in a 3-year, four-country study, scalp microbiome patterns track alopecia severity, progression, and treatment response. We built the Hair Microbiome Health Index (HMHI) to flag and predict disease course. A multi-omics Microbe–Metabolites–Host Crosstalk model shows Cutibacterium acnes converts tryptophan to indole, overactivating AHR in sebocytes, triggering CXCL12 release, recruiting CXCR4+ NKT cells, and stalling follicle growth. Targeting microbe–host signaling offers a therapeutic path for hair loss.
 
 ## 🎨 Graphical Abstract
 ![Graphical Abstract](figure/GA.png)
@@ -15,11 +15,10 @@ Across 1,073 participants in a 3-year, four-country study, scalp microbiome patt
 
 ## 📂 Data Availability
 - Single-cell RNA-seq and spatial transcriptomics: GSA-Human HRAXXXX (noncommercial academic use; MTA required).
-- Human metabolomics: EBI MetaboLights MTBLSXXXXX.
 - Metagenome and 16S rRNA gene sequences: ENA PRJEB103845.
 
 ## 📖 Citation
-Skin microbiota dysbiosis inhibit hair follicle regeneration through sebaceous gland signaling; Under Review, 2025
+Skin microbiota dysbiosis inhibit hair follicle regeneration; Under Review, 2025
 
 ## 📧 Lead Contact
 Gaofeng Wang (gwang45@jhmi.edu)
