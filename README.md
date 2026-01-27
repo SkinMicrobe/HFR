@@ -14,7 +14,7 @@ Across 1,068 participants in a 3-year, four-country study, scalp microbiome patt
 - `code/multiomics_utils.R` + `code/lefse_utils.R` + `code/iobr_utils.R` + `code/tempdir_utils.R`: multi-omics merging, LEfSe wrappers, signature scoring, and fixed temp directories.
 
 ## 📂 Data Availability
-- Single-cell RNA-seq and spatial transcriptomics: GSA-Human HRA016071 (noncommercial academic use; MTA required).
+- Single-cell RNA-seq and spatial transcriptomics: GSA-Human HRA016071.
 - Metagenome and 16S rRNA gene sequences: ENA PRJEB103845.
 
 ## 📖 Citation
